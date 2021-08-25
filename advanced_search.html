@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="project0.css">
+
+</head>
+<body>
+	<header>
+		<nav class="menu">
+           <ul>
+						
+				<li>
+					<a  href="project0.html">Google Search</a>
+				</li>
+
+				<li>
+					<a href="image_search.html">Image Search</a>
+
+				</li>
+				<li>
+					<a class ="active" href="advanced_search.html">Advanced Search</a>	
+				</li>		
+			</ul>
+
+		</nav>
+	</header>
+
+	<div class ="advanced_search_div">
+		<div class="advanced_search_text">
+			<label style="margin-left: 10px">Advanced Search</label>
+		</div>
+
+		<div class="line"></div>
+
+		<form id= "ad_search_form" action="https:\\www.google.com\search" name = "q" method="GET">
+			
+			
+		   <div class="form_part">
+			 <div class="find_page_title">
+				<div class="fpt">
+					<span>Find pages with...</span>
+				</div>
+				<div class="fp_ws1"> </div>
+				
+			</div> 
+			<div class="find_page_form">
+				<div class="fpf">
+					<div class="fpf_title">
+						<span>all these words:</span>
+					</div>
+					<div class="fpf_input"> 
+
+						<div class="inp"> 
+							<input type="text" name="as_q" id="id_inp1" class="all_word_text_inp" value="" autofocus="autofocus">
+							
+						</div>
+
+					</div>
+				</div>
+				<div class="fpf">
+					<div class="fpf_title">
+						<span>this exact word or phrase:</span>
+					</div>
+					<div class="fpf_input"> 
+
+						<div class="inp"> 
+							<input type="text" name="as_epq" id="id_inp2" class="phrase_text_inp" value="" autofocus="autofocus">
+						</div>
+
+					</div>
+				</div>
+
+				
+
+				<div class="fpf">
+					<div class="fpf_title">
+						<span>any of these words:</span>
+					</div>
+					<div class="fpf_input"> 
+
+						<div class="inp"> 
+							<input type="text" name="as_oq" id="id_inp3" class="any_word_text_inp" value="" autofocus="autofocus">
+						</div>
+
+					</div>
+				</div>
+
+				<div class="fpf">
+					<div class="fpf_title">
+						<span>none of these words:</span>
+					</div>
+					<div class="fpf_input"> 
+
+						<div class="inp"> 
+							<input type="text" name="as_eq" id="id_inp4" class="no_word_text_inp" value="" autofocus="autofocus">
+						</div>
+
+					</div>
+				</div>
+				
+			</div>
+			<div class="form_btn_part">
+					<div class="ad_search_btn_div"> 
+
+						<div class="ad_srch_btn_holder"> 
+							
+							<input type="submit" name="btn_adv" id="asbh_id" class="ad_srch_btn ad_srch_btn_action asbcd" value="Advanced Search" style="user-select: none;line-height: 100%; height: 30px; min-width: 120px">
+
+						</div>
+
+					</div>
+			</div>
+			</div>
+
+	
+		</form>
+	</div>
+
+</body>
+</html>
